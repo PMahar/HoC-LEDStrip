@@ -18,9 +18,9 @@ void setup() {
 
 void loop() {
   pixels.clear();
-  int red[]  = {  0, 255,   0, 255,123,183,237,   0};
-  int green[]= {255,   0,   0, 255,163, 14,173, 255};
-  int blue[] = {  0,   0, 255, 255,231, 23,242,   0};
+  int red[]  = {255, 255, 255,   0,  0,255,};
+  int green[]= {  0, 150, 255, 255,  0,   0};
+  int blue[] = {  0,   0,   0,   0,255, 255};
 
   for(int c = 0; c < 8; c++) {
     for(int i=0; i<NUMPIXELS; i++) {
